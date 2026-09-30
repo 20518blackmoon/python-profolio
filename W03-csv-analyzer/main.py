@@ -18,4 +18,3 @@ print("最高平均學生:", highest_average_student["name"], "平均:", (int(hi
 
 highest_math_student = max(students, key=lambda s: int(s["math"]))
 print("最高數學學生:", highest_math_student["name"], "分數:", highest_math_student["math"])
-
